@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Card Component with Bulma</title>
+  <!-- Link to Bulma CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <!-- Custom CSS for card styling -->
+  <style>
+    /* Optional custom styling */
+    .custom-card {
+      margin-bottom: 20px;
+    }
+    .custom-card .card-content {
+      padding: 20px;
+    }
+    .custom-card .card-image img {
+      border-radius: 5px 5px 0 0; /* Rounded corners for top of image */
+    }
+
+    body{
+      
+      background-repeat: no-repeat;
+    background-size: cover;
+  }
+    
+    nav {
+    background-color: black;
+    color:white;
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 50px;
+    margin-bottom:100px ;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+  }
+  
+  .hamburger-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  a{
+    margin-top: 100px;
+    color: white;
+    font-size: larger;
+  };
+  
+  .column is-4{
+
+ margin-top: 100px;
+
+  }
+
+  .card custom-card{
+
+margin-top: 100px;
+  }
+  h1{
+
+    font-size: 40px;
+  }
+
+  </style>
+</head>
+<body background="c:\Users\ratho\OneDrive\Pictures\B.jpg">
+
+   <nav>
+    <h1>Welcome to Cartoon World!</h1>
+    <div class="menu-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li>
+        <a href="#">Services</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="columns is-multiline">
+      <!-- Card 1 -->
+      <div class="column is-4">
+        <div class="card custom-card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="c:\Users\ratho\OneDrive\Pictures\z15.webp" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Shin-chan</p>
+              </div>
+            </div>
+            <div class="content">
+              Main article: List of Crayon Shin-chan characters
+
+Train in special Crayon Shin-chan vinyl wrapping livery at Kurihashi Station, Japan
+Set in the city of Kasukabe of Saitama Prefecture.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="column is-4">
+        <div class="card custom-card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="c:\Users\ratho\OneDrive\Pictures\z02.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Doraemon</p>
+              </div>
+            </div>
+            <div class="content">
+              Doraemon is a Japanese manga series written and illustrated by Fujiko F. Fujio. The manga was first serialized in 1969. Its chapters were collected in 45 tankōbon volumes published 
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more cards as needed -->
+       <!-- Card 3 -->
+      <div class="column is-4">
+        <div class="card custom-card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="c:\Users\ratho\OneDrive\Pictures\z03.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Ninja hattori</p>
+              </div>
+            </div>
+            <div class="content">
+              Ninja Hattori-kun is a Japanese manga series written and illustrated by Motoo Abiko (initially credited as Fujiko Fujio and later as Fujiko Fujio A) which was serialized between 1964 and 1988.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="column is-4">
+        <div class="card custom-card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="c:\Users\ratho\OneDrive\Pictures\z08.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Oggy and the cockroaches</p>
+              </div>
+            </div>
+            <div class="content">
+              Oggy and the Cockroaches is a French animated television series created by Jean-Yves Raimbaud for Gaumont Multimedia and Xilam Animation. The series chronicles the exploits and adventures of Oggy, a blue cat whose life.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="column is-4">
+        <div class="card custom-card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="c:\Users\ratho\OneDrive\Pictures\z05.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Motu Patlu</p>
+              </div>
+            </div>
+            <div class="content">
+              Motu Patlu is an Indian animated sitcom that premiered on Nickelodeon in India on 16 October 2012. This show is available in Hindi, Tamil, Telugu, Malayalam, Marathi, Kannada and Bengali. 
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 6-->
+      <div class="column is-4">
+        <div class="card custom-card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="c:\Users\ratho\OneDrive\Pictures\z01.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Pokemon</p>
+              </div>
+            </div>
+            <div class="content">
+              Pokémon is a Japanese media franchise consisting of video games, animated series and films, a trading card game, and other related media. The franchise takes place in a shared universe in which humans co-exist with creatures.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 7 -->
+      <div class="column is-4">
+        <div class="card custom-card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="c:\Users\ratho\OneDrive\Pictures\z07.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Kiteretsu</p>
+              </div>
+            </div>
+            <div class="content">
+              Kiteretsu Daihyakka is a Japanese manga series by Fujiko Fujio which ran in the children's magazine Kodomo no Hikari from April 1974 to July 1977. The manga was later made into a 331-episode anime television series that ran on Fuji.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 8 -->
+      <div class="column is-4">
+        <div class="card custom-card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="c:\Users\ratho\OneDrive\Pictures\z09.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Pakdam Pakdai</p>
+              </div>
+            </div>
+            <div class="content">
+              Pakdam Pakdai also known as Rat-A-Tat is an Indian Flash-animated comedy television series, formerly on Nickelodeon later on Sonic Nickelodeon.The show began airing on 27 May 2013. Pakdam Pakdai is narrated by Nana.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 9 -->
+      <div class="column is-4">
+        <div class="card custom-card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="c:\Users\ratho\OneDrive\Pictures\z011.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Dora the explorer</p>
+              </div>
+            </div>
+            <div class="content">
+              Dora the Explorer is an American media franchise centered on an eponymous animated interactive fourth wall children's television series created by Chris Gifford, Valerie Walsh Valdes and Eric Weiner, produced by Nickelodeon Animation.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 10 -->
+      <div class="column is-4">
+        <div class="card custom-card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="c:\Users\ratho\OneDrive\Pictures\z010.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Shaun the sheep</p>
+              </div>
+            </div>
+            <div class="content">
+              Shaun the Sheep is a British stop-motion animated silent comedy children's television series which is developed by Aardman Animations. A spin-off in the Wallace and Gromit franchise, the series focuses on the adventures of Shaun, the eponymous sheep. 
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 11 -->
+      <div class="column is-4">
+        <div class="card custom-card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="c:\Users\ratho\OneDrive\Pictures\z012.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Mickey Mouse</p>
+              </div>
+            </div>
+            <div class="content">
+              Mickey Mouse is an American cartoon character co-created in 1928 by Walt Disney and Ub Iwerks. The longtime icon and mascot of the Walt Disney Company, Mickey is an anthropomorphic mouse who typically wears red shorts, large shoes, and white gloves.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 12 -->
+      <div class="column is-4">
+        <div class="card custom-card">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="c:\Users\ratho\OneDrive\Pictures\z013.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Sofia the first</p>
+              </div>
+            </div>
+            <div class="content">
+              Sofia the First is an American animated fantasy children's television series created by Craig Gerber for Disney Television Animation. The series follows a young peasant girl named Sofia, voiced by Ariel Winter, who becomes a princess after her mother marries the King of Enchancia.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
